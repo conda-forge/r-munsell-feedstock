@@ -14,9 +14,8 @@ Summary: Provides easy access to, and manipulation of, the Munsell  colours. Pro
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-munsell-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-munsell-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-munsell-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-munsell-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-munsell-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-munsell-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-munsell-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-munsell-feedstock)
 
 Current release info
 ====================
