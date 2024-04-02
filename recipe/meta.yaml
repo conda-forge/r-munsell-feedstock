@@ -1,4 +1,4 @@
-{% set version = '0.5.0' %}
+{% set version = "0.5.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/munsell_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/munsell/munsell_{{ version }}.tar.gz
-  sha256: d0f3a9fb30e2b5d411fa61db56d4be5733a2621c0edf017d090bdfa5e377e199
+  sha256: 03a2fd9ac40766cded96dfe33b143d872d0aaa262a25482ce19161ca959429a6
 
 build:
-  merge_build_host: True  # [win]
-  number: 1006
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -39,10 +39,8 @@ test:
 about:
   home: https://cran.r-project.org/package=munsell, https://github.com/cwickham/munsell/
   license: MIT
-  summary: Provides easy access to, and manipulation of, the Munsell colours. Provides a mapping
-    between Munsell's original notation (e.g. "5R 5/10") and hexadecimal strings suitable
-    for use directly in R graphics. Also provides utilities to explore slices through
-    the Munsell colour tree, to transform Munsell colours and display colour palettes.
+  summary: Provides easy access to, and manipulation of, the Munsell colours. Provides a mapping between Munsell's original notation (e.g. "5R 5/10") and hexadecimal strings suitable for use directly in R graphics. Also provides utilities to explore slices through the Munsell colour tree, to transform Munsell colours and
+    display colour palettes.
   license_family: MIT
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/MIT'
